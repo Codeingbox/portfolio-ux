@@ -29,7 +29,7 @@ const Footer = () => {
             ))}
           </div>
           <div className="pt-8 mt-8 border-t border-white/[0.05] text-foreground/40 text-sm">
-            © {new Date().getFullYear()} Aryan Kumamr Pandey. All rights reserved.
+            © {new Date().getFullYear()} Aryan Kumar Pandey. All rights reserved.
           </div>
         </div>
       </div>
