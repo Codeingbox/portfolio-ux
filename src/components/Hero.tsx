@@ -12,10 +12,10 @@ const Hero = () => {
             transform: "scale(1.3)",
             transformOrigin: "center center",
             position: "absolute",
-            top: "0",
+            top: "4",
             left: "0",
-            width: "100%",
-            height: "90%"
+            width: "95%",
+            height: "85%"
           }}
           title="3D Robot Animation"
         />
