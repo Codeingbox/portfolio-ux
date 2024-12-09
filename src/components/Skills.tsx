@@ -5,17 +5,17 @@ const Skills = () => {
     {
       title: "UI/UX Design",
       icon: Palette,
-      skills: ["Figma", "Wireframing", "Persona Development", "Prototyping", "User Research"],
+      skills: ["Figma", "Wireframes Designing", "Prototyping", "User Research"],
     },
     {
       title: "Frontend Development",
       icon: Code2,
-      skills: ["React", "TypeScript", "Tailwind CSS", "JavaScript", "HTML"],
+      skills: ["React", "TypeScript", "Tailwind CSS", "JavaScript", "HTML", "WordPress"],
     },
     {
       title: "Backend Development",
       icon: Terminal,
-      skills: ["Node.js", "Python", "PostgreSQL", "AWS", "Docker"],
+      skills: ["Node.js", "Python", "MySQL", "PostgreSQL", "QA Testing(Beginner)"],
     },
   ];
 
