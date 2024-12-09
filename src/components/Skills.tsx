@@ -1,4 +1,4 @@
-import { Code2, Palette, Terminal } from "lucide-react";
+import { Code2, Palette, Wrench } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
@@ -14,7 +14,7 @@ const Skills = () => {
     },
     {
       title: "Backend Development",
-      icon: Terminal,
+      icon: Wrench,
       skills: ["Node.js", "Python", "MySQL", "PostgreSQL", "QA Testing(Beginner)"],
     },
   ];
@@ -30,7 +30,7 @@ const Skills = () => {
             <div
               key={category.title}
               className="glass rounded-2xl p-8 hover:bg-white/[0.06] transition-all duration-300 group animate-fade-up"
-              style={{ animationDelay: ${index * 100}ms }}
+              style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="flex items-center gap-4 mb-6">
                 <category.icon
