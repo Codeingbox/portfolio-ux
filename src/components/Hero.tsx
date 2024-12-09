@@ -9,7 +9,7 @@ const Hero = () => {
           style={{ 
             pointerEvents: "all",
             border: "none",
-            transform: "scale(1.2)",
+            transform: "scale(1.4)",
             transformOrigin: "center center",
             position: "absolute",
             top: "0",
