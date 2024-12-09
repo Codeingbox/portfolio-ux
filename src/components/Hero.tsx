@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen section-padding pt-32 md:pt-40 relative overflow-hidden">
+    <section id="home" className="min-h-screen section-padding pt-33 md:pt-42 relative overflow-hidden">
       {/* Spline container taking up the entire section */}
       <div className="absolute inset-0 z-0">
         <iframe
@@ -9,14 +9,13 @@ const Hero = () => {
           style={{ 
             pointerEvents: "all",
             border: "none",
-            transform: "scale(1.3)",
+            transform: "scale(1.2)",
             transformOrigin: "center center",
             position: "absolute",
-            margintop:"2px", 
             top: "0",
             left: "0",
             width: "100%",
-            height: "85%"
+            height: "100%"
           }}
           title="3D Robot Animation"
         />
