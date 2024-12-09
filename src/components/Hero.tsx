@@ -9,8 +9,13 @@ const Hero = () => {
           style={{ 
             pointerEvents: "all",
             border: "none",
-            transform: "scale(1.2)",
-            transformOrigin: "center center"
+            transform: "scale(1.5)",
+            transformOrigin: "center center",
+            position: "absolute",
+            top: "-10%",
+            left: "0",
+            width: "120%",
+            height: "120%"
           }}
           title="3D Robot Animation"
         />
