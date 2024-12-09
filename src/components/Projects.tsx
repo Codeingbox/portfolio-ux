@@ -7,7 +7,14 @@ const Projects = () => {
       image: "https://via.placeholder.com/600x400",
     },
     {
-      title: ":Portfolio Website",
+      title: "Organic-Hub",
+      url: "https://example.com", // Replace with the actual URL
+      description: "A web app for farmers to track real-time local environmental conditions",
+      tags: ["All Devices", "Js", "css"],
+      image: "https://via.placeholder.com/600x400",
+    }
+    {
+      title: "Portfolio Website",
       description: "Analytics dashboard for social media management",
       tags: ["Tailwind.css", "React.js", "Typescript"],
       image: "https://via.placeholder.com/600x400",
