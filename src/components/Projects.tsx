@@ -4,7 +4,7 @@ const Projects = () => {
       title: "Organic-Hub",
       description: "A web app for farmers to track real-time local environmental conditions",
       tags: ["All Devices", "Js", "css"],
-      image: "https://organichub-akp.netlify.app/600x400",
+      image: "https://via.placeholder.com/600x400",
     },
     {
       title: "Portfolio Website",
