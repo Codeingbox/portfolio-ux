@@ -1,50 +1,24 @@
-import { useEffect, useRef } from "react";
-
 const Hero = () => {
-  const iframeRef = useRef(null);
-
-  useEffect(() => {
-    // Adjust iframe pointer events for smoother interaction
-    const handleMouseMove = (event) => {
-      const iframe = iframeRef.current;
-      if (!iframe) return;
-
-      const rect = iframe.getBoundingClientRect();
-      const x = ((event.clientX - rect.left) / rect.width) * 2 - 1; // Normalize X (-1 to 1)
-      const y = ((event.clientY - rect.top) / rect.height) * 2 - 1; // Normalize Y (-1 to 1)
-
-      // Update iframe transform for subtle 3D perspective
-      iframe.style.transform = `scale(1.4) translateX(${x * 10}px) translateY(${y * 10}px)`;
-    };
-
-    window.addEventListener("mousemove", handleMouseMove);
-    return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
-    };
-  }, []);
-
   return (
     <section
       id="home"
       className="min-h-screen section-padding pt-0 md:pt-0 relative overflow-hidden"
     >
-      {/* Spline container */}
+      {/* Spline container taking up the entire section */}
       <div className="absolute inset-0 z-0">
         <iframe
-          ref={iframeRef}
           src="https://my.spline.design/nexbotrobotcharacterconcept-7ac9710361452b7cb1d909afbfff982a/"
           className="w-full h-full"
           style={{
-            pointerEvents: "none", // Allow smoother mouse interactions
+            pointerEvents: "all",
             border: "none",
-            transform: "scale(1.4)",
+            transform: "scale(1.4) translateX(-30px)", // Moves the robot slightly left for right spacing
             transformOrigin: "center center",
             position: "absolute",
-            top: "50px", // Adds space above the robot
+            top: "50px", // Adds space above the robot animation
             left: "0",
             width: "100%",
-            height: "calc(100% - 50px)", // Maintains proper scaling
-            transition: "transform 0.1s ease-out", // Smooth transition for cursor tracking
+            height: "calc(100% - 50px)" // Maintains proper scaling
           }}
           title="3D Robot Animation"
         />
