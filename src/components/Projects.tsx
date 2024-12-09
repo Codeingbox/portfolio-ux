@@ -11,7 +11,7 @@ const Projects = () => {
       description: "A web app for farmers to track real-time local environmental conditions",
       tags: ["All Devices", "Js", "css"],
       image: "https://via.placeholder.com/600x400",
-    }
+    },
     {
       title: "Portfolio Website",
       description: "Analytics dashboard for social media management",
