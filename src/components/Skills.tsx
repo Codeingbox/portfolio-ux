@@ -32,7 +32,7 @@ const Skills = () => {
               className="glass rounded-2xl p-8 hover:bg-white/[0.06] transition-all duration-300 group animate-fade-up"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="flex items-center gap-4 mb-6">
+              <div className="flex items-center gap-3 mb-5">
                 <category.icon
                   size={32}
                   className="text-accent group-hover:scale-110 transition-transform duration-300"
