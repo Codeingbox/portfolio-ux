@@ -1,25 +1,25 @@
 const Education = () => {
   const timeline = [
     {
-      year: "2023",
-      title: "Master's in Computer Science",
-      institution: "Stanford University",
+      year: "2022-On Going",
+      title: "Bachelor's in Software Engineering",
+      institution: "Sharda University",
       description:
-        "Specialized in Human-Computer Interaction and Software Engineering",
+        "Focused on Software Development and CS related skills",
     },
     {
-      year: "2021",
-      title: "Bachelor's in Software Engineering",
-      institution: "MIT",
+      year: "2022",
+      title: "Senior Schooling",
+      institution: "Laxmi Public School",
       description:
-        "Focused on UI/UX Design and Full Stack Development",
+        "Completed senior secondary education with a major in Science",
     },
     {
       year: "2020",
-      title: "UI/UX Design Certification",
-      institution: "Google",
+      title: "HighSchool Schooling",
+      institution: "Williamsburg Charter HighSchool",
       description:
-        "Professional certification in User Experience Design",
+        "Completed high secondary education",
     },
   ];
 
