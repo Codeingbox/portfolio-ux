@@ -1,21 +1,21 @@
 const Projects = () => {
   const projects = [
     {
+      title: "Organic-Hub",
+      description: "A web app for farmers to track real-time local environmental conditions",
+      tags: ["All Devices", "Js", "css"],
+      image: "https://via.placeholder.com/600x400",
+    },
+    {
+      title: ":Portfolio Website",
+      description: "Analytics dashboard for social media management",
+      tags: ["Tailwind.css", "React.js", "Typescript"],
+      image: "https://via.placeholder.com/600x400",
+    },
+    {
       title: "E-commerce Redesign",
       description: "A modern e-commerce platform with focus on user experience",
       tags: ["UI/UX", "React", "Node.js"],
-      image: "https://via.placeholder.com/600x400",
-    },
-    {
-      title: "Social Media Dashboard",
-      description: "Analytics dashboard for social media management",
-      tags: ["Dashboard", "Vue.js", "D3.js"],
-      image: "https://via.placeholder.com/600x400",
-    },
-    {
-      title: "Mobile Banking App",
-      description: "Fintech application with focus on security and usability",
-      tags: ["Mobile", "React Native", "Firebase"],
       image: "https://via.placeholder.com/600x400",
     },
   ];
