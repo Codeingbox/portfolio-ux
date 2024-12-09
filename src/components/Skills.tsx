@@ -1,36 +1,21 @@
-import { Code2, Palette, Terminal, Database, Tool, Languages } from "lucide-react";
+import { Code2, Palette, Terminal } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
     {
       title: "UI/UX Design",
       icon: Palette,
-      skills: ["Figma", "Wireframes Designing", "Prototyping", "User Research"],
+      skills: ["Figma", "Wireframing", "Persona Development", "Prototyping", "User Research"],
     },
     {
       title: "Frontend Development",
       icon: Code2,
-      skills: ["HTML", "CSS", "JavaScript", "Bootstrap", "React.js", "WordPress"],
+      skills: ["React", "TypeScript", "Tailwind CSS", "JavaScript", "HTML"],
     },
     {
       title: "Backend Development",
       icon: Terminal,
-      skills: ["Node.js", "Python", "Java", "MySQL", "QA Testing (Beginner-Intermediate)"],
-    },
-    {
-      title: "Programming Languages",
-      icon: Languages,
-      skills: ["C", "JavaScript", "Python", "Java"],
-    },
-    {
-      title: "Development Tools",
-      icon: Tool,
-      skills: ["Git", "Netlify"],
-    },
-    {
-      title: "Additional Skills",
-      icon: Database,
-      skills: ["Data Structures and Algorithms", "Cybersecurity Basics"],
+      skills: ["Node.js", "Python", "PostgreSQL", "AWS", "Docker"],
     },
   ];
 
@@ -45,7 +30,7 @@ const Skills = () => {
             <div
               key={category.title}
               className="glass rounded-2xl p-8 hover:bg-white/[0.06] transition-all duration-300 group animate-fade-up"
-              style={{ animationDelay: `${index * 100}ms` }}
+              style={{ animationDelay: ${index * 100}ms }}
             >
               <div className="flex items-center gap-4 mb-6">
                 <category.icon
