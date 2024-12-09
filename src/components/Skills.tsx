@@ -1,21 +1,36 @@
-import { Code2, Palette, Terminal } from "lucide-react";
+import { Code2, Palette, Terminal, Database, Tool, Languages } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
     {
       title: "UI/UX Design",
       icon: Palette,
-      skills: ["Figma", "Adobe XD", "Sketch", "Prototyping", "User Research"],
+      skills: ["Figma", "Wireframes Designing", "Prototyping", "User Research"],
     },
     {
       title: "Frontend Development",
       icon: Code2,
-      skills: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Vue.js"],
+      skills: ["HTML", "CSS", "JavaScript", "Bootstrap", "React.js", "WordPress"],
     },
     {
       title: "Backend Development",
       icon: Terminal,
-      skills: ["Node.js", "Python", "PostgreSQL", "AWS", "Docker"],
+      skills: ["Node.js", "Python", "Java", "MySQL", "QA Testing (Beginner-Intermediate)"],
+    },
+    {
+      title: "Programming Languages",
+      icon: Languages,
+      skills: ["C", "JavaScript", "Python", "Java"],
+    },
+    {
+      title: "Development Tools",
+      icon: Tool,
+      skills: ["Git", "Netlify"],
+    },
+    {
+      title: "Additional Skills",
+      icon: Database,
+      skills: ["Data Structures and Algorithms", "Cybersecurity Basics"],
     },
   ];
 
