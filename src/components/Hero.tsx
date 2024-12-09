@@ -15,7 +15,7 @@ const Hero = () => {
             top: "0",
             left: "0",
             width: "100%",
-            height: "100%"
+            height: "95%"
           }}
           title="3D Robot Animation"
         />
@@ -27,7 +27,7 @@ const Hero = () => {
             <div>
               <h2 className="text-accent font-medium mb-4">Hello, I'm</h2>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                John Doe
+                Aryan
               </h1>
               <p className="text-xl text-foreground/80">
                 UI/UX Designer & Full Stack Developer
