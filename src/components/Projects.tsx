@@ -8,7 +8,6 @@ const Projects = () => {
     },
     {
       title: "Organic-Hub",
-      url: "https://example.com", // Replace with the actual URL
       description: "A web app for farmers to track real-time local environmental conditions",
       tags: ["All Devices", "Js", "css"],
       image: "https://via.placeholder.com/600x400",
