@@ -34,7 +34,7 @@ const Navbar = () => {
           }`}
         >
           <a href="#" className="text-2xl font-bold text-accent">
-            Portfolio
+            AKP
           </a>
 
           {/* Desktop Menu */}
