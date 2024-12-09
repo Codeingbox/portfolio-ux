@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen section-padding pt-32 md:pt-40 relative overflow-hidden"
+      className="min-h-screen section-padding pt-0 md:pt-0 relative overflow-hidden"
     >
       {/* Spline container taking up the entire section */}
       <div className="absolute inset-0 z-0">
@@ -12,19 +12,20 @@ const Hero = () => {
           style={{
             pointerEvents: "all",
             border: "none",
-            transform: "scale(1.4)",
+            transform: "scale(1.4) translateX(-30px)", // Moves the robot slightly left for right spacing
             transformOrigin: "center center",
             position: "absolute",
-            top: "50px", // Adds space from the top
+            top: "50px", // Adds space above the robot animation
             left: "0",
             width: "100%",
-            height: "calc(100% - 50px)" // Adjust height to account for the offset
+            height: "calc(100% - 50px)" // Maintains proper scaling
           }}
           title="3D Robot Animation"
         />
       </div>
 
-      <div className="container mx-auto relative z-10">
+      {/* Content Container */}
+      <div className="container mx-auto relative z-10 pt-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-up backdrop-blur-sm bg-black/30 p-8 rounded-2xl">
             <div>
