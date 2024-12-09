@@ -9,13 +9,13 @@ const Hero = () => {
           style={{ 
             pointerEvents: "all",
             border: "none",
-            transform: "scale(1.3)",
+            transform: "scale(1.5)",
             transformOrigin: "center center",
             position: "absolute",
-            top: "0",
+            top: "-10%",
             left: "0",
-            width: "100%",
-            height: "95%"
+            width: "120%",
+            height: "120%"
           }}
           title="3D Robot Animation"
         />
@@ -27,7 +27,7 @@ const Hero = () => {
             <div>
               <h2 className="text-accent font-medium mb-4">Hello, I'm</h2>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Aryan
+                John Doe
               </h1>
               <p className="text-xl text-foreground/80">
                 UI/UX Designer & Full Stack Developer
