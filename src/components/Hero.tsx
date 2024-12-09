@@ -1,9 +1,18 @@
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen section-padding pt-32 md:pt-40">
-      <div className="container mx-auto">
+    <section id="home" className="min-h-screen section-padding pt-32 md:pt-40 relative">
+      {/* Spline container taking up the entire section */}
+      <div className="absolute inset-0 z-0">
+        <iframe
+          src="https://my.spline.design/nexbotrobotcharacterconcept-7ac9710361452b7cb1d909afbfff982a/"
+          className="w-full h-full"
+          style={{ pointerEvents: "auto" }}
+        />
+      </div>
+      
+      <div className="container mx-auto relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8 animate-fade-up">
+          <div className="space-y-8 animate-fade-up backdrop-blur-sm bg-black/30 p-8 rounded-2xl">
             <div>
               <h2 className="text-accent font-medium mb-4">Hello, I'm</h2>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
@@ -33,12 +42,7 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <div className="h-[500px] animate-fade-up">
-            <iframe
-              src="https://my.spline.design/nexbotrobotcharacterconcept-7ac9710361452b7cb1d909afbfff982a/"
-              className="w-full h-full"
-            />
-          </div>
+          {/* Removed the right column since we're using the Spline animation as a background */}
         </div>
       </div>
     </section>
