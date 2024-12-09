@@ -20,7 +20,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="section-padding bg-black">
+    <section id="skills" className="section-padding bg-secondary">
       <div className="container mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
           My Skills
