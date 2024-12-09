@@ -15,7 +15,7 @@ const Hero = () => {
             top: "0",
             left: "0",
             width: "100%",
-            height: "95%"
+            height: "90%"
           }}
           title="3D Robot Animation"
         />
