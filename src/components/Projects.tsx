@@ -30,6 +30,27 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80",
       url: "https://ecommerce.example.com",
     },
+    {
+      title: "AI Image Generator",
+      description: "Web application that generates images using AI models",
+      tags: ["Python", "TensorFlow", "React"],
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80",
+      url: "https://ai-image.example.com",
+    },
+    {
+      title: "Social Media Analytics",
+      description: "Dashboard for tracking social media performance",
+      tags: ["Data Viz", "Next.js", "GraphQL"],
+      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80",
+      url: "https://analytics.example.com",
+    },
+    {
+      title: "Weather App",
+      description: "Real-time weather tracking application",
+      tags: ["React Native", "API", "Mobile"],
+      image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&q=80",
+      url: "https://weather.example.com",
+    },
   ];
 
   return (
