@@ -6,8 +6,14 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { ExternalLink } from "lucide-react";
+import Autoplay from "embla-carousel-autoplay";
+import { useRef } from "react";
 
 const Projects = () => {
+  const plugin = useRef(
+    Autoplay({ delay: 4000, stopOnInteraction: true })
+  );
+
   const projects = [
     {
       title: "Organic-Hub",
@@ -64,6 +70,7 @@ const Projects = () => {
             align: "start",
             loop: true,
           }}
+          plugins={[plugin.current]}
           className="w-full max-w-5xl mx-auto"
         >
           <CarouselContent>
