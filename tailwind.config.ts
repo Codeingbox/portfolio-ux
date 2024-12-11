@@ -85,12 +85,23 @@ export default {
             transform: "scale(1)",
           },
         },
+        "gradient-x": {
+          "0%, 100%": {
+            "background-size": "200% 200%",
+            "background-position": "left center",
+          },
+          "50%": {
+            "background-size": "200% 200%",
+            "background-position": "right center",
+          },
+        },
       },
       animation: {
         "fade-up": "fade-up 0.5s ease-out forwards",
         "fade-down": "fade-down 0.5s ease-out forwards",
         float: "float 3s ease-in-out infinite",
         "scale-up": "scale-up 0.3s ease-out forwards",
+        "gradient-x": "gradient-x 3s ease infinite",
       },
     },
   },
