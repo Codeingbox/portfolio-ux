@@ -26,20 +26,32 @@ const Education = () => {
   return (
     <section id="education" className="section-padding">
       <div className="container mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 animate-fade-down">
+        <h2 className="section-heading gradient-text">
           Education
         </h2>
         <div className="max-w-3xl mx-auto">
           {timeline.map((item, index) => (
             <div
               key={index}
-              className="timeline-item animate-fade-up glass p-6 rounded-xl mb-8 hover:bg-white/[0.06] transition-all duration-300"
+              className="timeline-item animate-fade-up glass p-6 rounded-xl mb-8 hover:bg-white/[0.08] glass-hover"
               style={{ animationDelay: `${index * 200}ms` }}
             >
-              <span className="text-accent font-medium inline-block mb-2 animate-fade-up" style={{ animationDelay: `${index * 200 + 100}ms` }}>{item.year}</span>
-              <h3 className="text-xl font-semibold mt-2 animate-fade-up" style={{ animationDelay: `${index * 200 + 200}ms` }}>{item.title}</h3>
-              <p className="text-foreground/60 mt-1 animate-fade-up" style={{ animationDelay: `${index * 200 + 300}ms` }}>{item.institution}</p>
-              <p className="text-foreground/60 mt-2 animate-fade-up" style={{ animationDelay: `${index * 200 + 400}ms` }}>{item.description}</p>
+              <span className="text-accent font-medium inline-block mb-2 animate-fade-up" 
+                style={{ animationDelay: `${index * 200 + 100}ms` }}>
+                {item.year}
+              </span>
+              <h3 className="text-xl font-semibold mt-2 animate-fade-up gradient-text" 
+                style={{ animationDelay: `${index * 200 + 200}ms` }}>
+                {item.title}
+              </h3>
+              <p className="text-foreground/60 mt-1 animate-fade-up" 
+                style={{ animationDelay: `${index * 200 + 300}ms` }}>
+                {item.institution}
+              </p>
+              <p className="text-foreground/60 mt-2 animate-fade-up hover:text-foreground/80 transition-colors duration-300" 
+                style={{ animationDelay: `${index * 200 + 400}ms` }}>
+                {item.description}
+              </p>
             </div>
           ))}
         </div>
